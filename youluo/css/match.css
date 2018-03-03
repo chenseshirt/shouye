@@ -1,0 +1,258 @@
+.banner{position: relative;}
+.banner .ban_bg{width: 100%; display: block;}
+.banner .mban_bg{display: none;}
+.banner .zhanTxt{position: absolute; left: 50%; top: 50%; margin-left: -291px;} 
+
+.matchList{height: 30px;width:953px!important;overflow: hidden; padding-top: 62px; padding-bottom: 70px;}
+.matchList a{color: #333; font-size: 26px;}
+.matchList em{width: 1px; height: 30px; background-color: #838383; display: inline-block; vertical-align: bottom; margin: 0 30px;}
+
+.hr{height: 22px; background-color: #838383;}
+
+.aboutUs{padding-top: 92px; padding-bottom: 165px;}
+.titleTop{width: 574px; margin: 0 auto;}
+.titleTop .linel{width: 138px; height: 1px; background-color: #333;position: relative;}
+.titleTop .linel span{width: 15px; height: 15px; display: block; background-color: #333; border-radius: 100%; position: absolute; right: 0; top: -7.5px;}
+.titleTop h1{margin-top: -32px; font-size: 48px; margin-left: 48px;}
+.titleTop .liner{width: 138px; height: 1px; background-color: #333;position: relative;}
+.titleTop .liner span{width: 15px; height: 15px; display: block; background-color: #333; border-radius: 100%; position: absolute; left: 0; top: -7.5px;}
+.title p{font-size: 30px; color: #666; text-align: center; padding-top: 35px;}
+
+.aboutContent{margin-top: 70px;}
+.leftContent{width: 425px; height: 430px; border: 4px solid #3f51b5; margin-left: 54px; position: relative;}
+.leftContent img{position: absolute; left: -54px; top: 35px; height: 344px;} 
+
+.rightContent{width: 472px;}
+.rightContent h2{font-size: 36px; color: #000; margin-bottom: 18px;}
+.rightContent p{font-size: 20px; color: #666; line-height: 30px;}
+.rightContent span{width: 30px; height: 4px; display: block; background-color: #333; margin-top: 50px; margin-bottom: 15px;}
+
+hr{background-color: #838383;}
+
+.matchLight{padding-top: 70px; padding-bottom: 65px;}
+.matchLight .picList{margin-top: 105px;}
+.matchLight .picList li{width: 376px; height: 376px;text-align: center; float: left; margin-right: 35px; border-radius: 5px; overflow: hidden;}
+.matchLight .picList li:last-child{margin-right: 0;}
+
+.getSuccess{padding-top: 70px; padding-bottom: 90px;}
+.success{margin-top: 124px;}
+.success p{font-size: 24px; text-align: center; line-height: 38px;}
+.success span{width: 50px; height: 2px; background-color: #333; display: block; margin: 60px auto 70px;}
+
+.successList li{width: 25%; float: left; text-align: center;}
+.successList li p{font-size: 18px; text-align: center;}
+
+.reward{padding-top: 60px; padding-bottom: 110px;}
+.reward h2{font-size: 36px; text-align: center;}
+.reward .bot{margin-top: 98px;}
+.reward .bot .fl{width: 500px;}
+.reward .bot .fl h3{font-size: 30px; line-height: 50px; color: #333;}
+.reward .bot .fl p{font-size: 18px; margin-top: 43px;}
+.reward .bot .fl p a{color: #333; font-size: 18px;}
+.reward .bot .fl p a:hover{color: #0c94bf;}
+.reward .bot .img{width: 458px; border-radius: 8px;  overflow: hidden; height: 262px;}
+
+.arrage{padding-top: 106px; padding-bottom: 125px;}
+.arrageContent{margin-top: 120px;}
+.arrage .arrTit{height: 30px;line-height: 30px; padding-left: 41px; border-left: 6px solid #313030; margin-bottom: 25px; margin-top: 55px;}
+.lines{height: 1px; background-color: #838383;}
+.rewardList{margin-top: 30px;}
+.rewardList li{font-size: 24px; color: #666; list-style: disc; margin-left: 20px; line-height: 50px;}
+
+.standard{padding-top: 84px; padding-bottom: 60px;}
+
+.choose{    width: 84%;
+    margin: 0px auto;}
+.choose .num{height: 51px; font-size: 24px; line-height: 51px; border-bottom: 1px solid #000;;}
+.dk_toggle.dk_label {
+    width: 950px!important;
+    font-size: 24px;
+    font-weight: normal;
+    background-color: #fff;
+    border-radius: 0;
+    color: #666;
+    padding: 10px 10px;
+    border-bottom: 1px solid #000;
+    padding-right: 0;
+	}
+.dk_options a {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: normal;
+    padding: 8px 10px;
+    color: #666;
+}
+
+.set{padding-top: 75px; padding-bottom: 130px;}
+.setList{margin-top: 50px; margin-bottom: 75px;}
+.setList li{width: 376px; height: 437px; float: left;box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.15); background-color: #fff; border-radius: 8px; overflow: hidden; margin-right: 35px;}
+.setList li:last-child{margin-right: 0;}
+.setList li img{width: 100%; display: block;}
+.setList li p{font-size: 30px; text-align: center; padding-top: 18px; height: 138px;}
+.setContent .setDetail{height: 62px; border: 1px solid #313030; border-radius: 8px; padding: 0 20px;}
+.setContent .setDetail h1{font-size: 24px; line-height: 62px;}
+.setContent .setDetail img{width: 25px; margin-top: 16px;}
+
+.judges{padding-top: 119px; padding-bottom: 165px;}
+.judgesList{margin-top: 77px;}
+.judgesList li{width: 280px; float: left; margin-right: 26px;box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.15); border-radius: 8px; overflow: hidden;}
+.judgesList li:last-child{margin-right: 0;}
+.judgesList li img{display: block;width:100%;}
+.judgesList li h1{height: 82px; text-align: center; color: #333; line-height: 90px; border-bottom: 1px solid #838383;}
+.judgesList li p{height: 73px; font-size: 30px; text-align: center; color: #333; line-height: 73px;}
+
+.partner{padding-top: 92px; padding-bottom: 94px;}
+.partnerList{padding-left: 5px; margin-top: 70px;}
+.partnerList li{float: left;height: 93px; margin-right: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.05); margin-bottom: 25px;}
+.partnerList li:nth-child(5n){margin-right: 0;}
+
+.foot{background-color: #000; padding: 80px 0 100px;}
+.foot .inner{position: relative;}
+.foot p{font-size: 20px; color: #fff; line-height: 45px;}
+.foot .fotLine{width: 753px; height: 1px; background-color: #838383; margin-top: 75px; margin-bottom: 43px;}
+/*.foot .lianjie a{font-size: 28px; color: #fff; margin-right: 100px;}*/
+.foot .lianjie .lianList li{width: 245px; float: left; margin-right: 10px;}
+.foot .lianjie .lianList li h1{font-size: 24px; color: #fff; margin-bottom: 8px;}
+.foot .lianjie .lianList li p{font-size: 18px; color: #787878; line-height: 35px;}
+.foot .lianjie .lianList li p a{font-size: 18px; color: #787878;}
+.foot .lianjie .lianList li p a:hover{color: #fff;}
+.foot .inner>img{position: absolute; right: 0; bottom: 80px;}
+.mfoot{display: none;}
+/*移动端*/
+@media only screen and (min-width: 300px) and (max-width: 768px){
+.banner{position: relative; height: auto;}
+.banner .ban_bg{ display: none; height: 100%;}
+.banner .mban_bg{display: block; width: 100%;}
+.banner .zhanTxt{position: absolute; left: 50%; top: 50%; margin-left: -291px; display: none;} 
+
+.matchList{height: 30px;overflow: hidden; padding-top: 62px; padding-bottom: 70px; display: none;}
+.matchList a{color: #333; font-size: 26px;}
+.matchList em{width: 1px; height: 30px; background-color: #838383; display: inline-block; vertical-align: bottom; margin: 0 30px;}
+
+.hr{height: 22px; background-color: #838383; display: none;}
+
+.aboutUs{padding-top: 92px; padding-bottom: 50px;}
+.titleTop{width: 93.6%; margin: 0 auto;}
+.titleTop .linel{width: 20%; height: 1px; background-color: #333;position: relative;}
+.titleTop .linel span{width: 15px; height: 15px; display: block; background-color: #333; border-radius: 100%; position: absolute; right: 0; top: -7.5px;}
+.titleTop h1{margin-top: -22px; font-size: 30px; margin-left: 12%;}
+.titleTop .liner{width: 20%; height: 1px; background-color: #333;position: relative;}
+.titleTop .liner span{width: 15px; height: 15px; display: block; background-color: #333; border-radius: 100%; position: absolute; left: 0; top: -7.5px;}
+.title p{font-size: 23px; color: #666; text-align: center; padding-top: 19px;}
+
+.aboutContent{margin-top: 40px;}
+.leftContent{width: 83.6%; /*margin: 0 auto;*/ height: 290px; border: 4px solid #3f51b5; margin-left: 8.2%; position: relative;}
+.leftContent img{position: absolute; left: -8%; top: 37px; height: 210px; width: 100%;} 
+
+.rightContent{width: 93.6%; margin-top: 20px;}
+.rightContent h2{font-size: 30px; color: #000; margin-bottom: 18px;}
+.rightContent p{font-size: 17px; color: #666; line-height: 27px;}
+.rightContent span{width: 30px; height: 4px; display: block; background-color: #333; margin-top: 23px; margin-bottom: 15px;}
+
+hr{background-color: #838383;}
+
+.matchLight{padding-top: 70px; padding-bottom: 65px; /*width: 93.6%;*/ margin: 0 auto;}
+.matchLight .picList{margin-top: 33px; padding-left: 4%;}
+.matchLight .picList li{width: 30%; height: auto; float: left; margin-right: 3%; border-radius: 5px; overflow: hidden;}
+.matchLight .picList li img{display: block; width: 100%;}
+.matchLight .picList li:last-child{margin-right: 0;}
+
+.getSuccess{padding-top: 70px; padding-bottom: 28px;}
+.success{margin-top: 45px;}
+.success p{font-size: 18px; text-align: center; line-height: 35px; width: 93.6%; margin: 0 auto;}
+.success span{width: 50px; height: 2px; background-color: #333; display: block; margin: 23px auto 43px;}
+
+.successList{width: 93.6%; margin:  0 auto;}
+.successList li{width: 50%; float: left; text-align: center;}
+.successList li p{font-size: 18px; text-align: center; height: 105px;}
+
+.reward{padding-top: 60px; padding-bottom: 110px;}
+.reward h2{font-size: 24px; text-align: center; width: 93.6%; margin: 0 auto;}
+.reward .bot{margin-top: 14px;}
+.reward .bot .fl{width: 100%;}
+.reward .bot .fl h3{font-size: 21px; line-height: 40px; color: #333; width: 93.6%; padding-left: 3.2%;}
+.reward .bot .fl p{font-size: 15px; margin-top: 43px; width: 93.6%; margin-left: 3.2%; margin-bottom: 20px;}
+.reward .bot .fl p a{color: #333; font-size: 18px;}
+.reward .bot .fl p a:hover{color: #0c94bf;}
+.reward .bot .img{width: 90%; border-radius: 8px;  overflow: hidden; height: auto; margin-right: 5%;}
+
+.arrage{padding-top: 106px; padding-bottom: 62px;}
+.arrageContent{width: 93.6%; margin: 0 auto;margin-top: 80px;}
+.arrage .arrTit{height: 22px;line-height: 22px; padding-left: 15px; border-left: 6px solid #313030; margin-bottom: 25px; margin-top: 55px;}
+.arrage .arrTit h1{font-size: 20px;}
+.arrage .arrTit img{width: 30px;}
+.lines{height: 1px; background-color: #838383;}
+.rewardList{margin-top: 30px;}
+.rewardList li{font-size: 18px; color: #666; list-style: disc; margin-left: 20px; line-height: 35px;}
+
+.standard{padding-top: 84px; padding-bottom: 60px;}
+
+.choose{margin-bottom: 20px; padding-left: 3.2%; margin-top: 10px;}
+.choose .num{height: 46px; font-size: 24px; line-height: 46px; border-bottom: 1px solid #000;;}
+.dk_toggle.dk_label {
+    width: 250px!important;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    border-radius: 0;
+    color: #666;
+    padding: 10px 10px;
+    border-bottom: 1px solid #000;
+    padding-right: 0;
+	}
+.dk_options a {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: normal;
+    padding: 8px 10px;
+    color: #666;
+}
+
+.set{padding-top: 75px; padding-bottom: 58px;}
+.setList{margin-top: 50px; margin-bottom: 75px; width: 93.6%; margin: 0 auto;}
+.setList li{width: 31.3%; height: auto; float: left;box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.15); background-color: #fff; border-radius: 8px; overflow: hidden; margin-right: 3%;}
+.setList li:last-child{margin-right: 0;}
+.setList li img{height: auto; display: block; width: 100%;}
+.setList li p{font-size: 20px; text-align: center; padding-top: 25px; height: 47px;}
+.setContent{margin-top: 30px;}
+.setContent .setDetail{height: 40px; border: 1px solid #313030; border-radius: 8px; padding: 0 20px; width: 83.6%; margin: 0 auto; margin-top: 30px;}
+.setContent .setDetail h1{font-size: 20px; line-height: 40px;}
+.setContent .setDetail img{width: 25px; margin-top: 6px;}
+
+.judges{padding-top: 78px; padding-bottom: 62px;}
+.judges .ge{height: 35px;}
+.judgesList{margin-top: 77px; width: 93.6%; margin: 0 auto;}
+.judgesList li{width: 48%; float: left; margin-right: 4%;box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.15); border-radius: 8px; overflow: hidden; margin-bottom: 35px;}
+.judgesList li:nth-child(even){margin-right: 0;}
+.judgesList li:last-child{margin-right: 0;}
+.judgesList li img{display: block; width: 100%;}
+.judgesList li h1{height: 65px; text-align: center; color: #333; line-height: 67px; border-bottom: 1px solid #838383; font-size: 20px; font-weight: bold;}
+.judgesList li p{height: 60px; font-size: 30px; text-align: center; color: #333; line-height: 60px; font-size: 20px; font-weight: bold;}
+
+.partner{padding-top: 78px; padding-bottom: 10px;}
+.partnerList{padding-left: 0px; margin-top: 70px; width: 93.6%;  margin: 20px auto 10px;}
+.partnerList li{float: left; margin-right: 3%;height: 50px; box-shadow: 0 2px 8px rgba(0,0,0,.05); margin-bottom: 25px; width: 30%;}
+.partnerList li img{width: 100%;}
+.partnerList li:nth-child(5n){margin-right: 3%;}
+.partnerList li:nth-child(3n){margin-right: 0;}
+
+.foot{background-color: #000; padding: 80px 0 130px; display: none;}
+.foot .inner{position: relative;}
+.foot p{font-size: 16px; color: #fff; line-height: 45px; width: 93.6%; margin: 0 auto;}
+.foot .fotLine{width: 753px; height: 1px; background-color: #838383; margin-top: 75px; margin-bottom: 43px;}
+.foot .lianjie a{font-size: 28px; color: #fff; margin-right: 100px;}
+.foot .inner>img{position: absolute; right: 0; bottom: -20px;}
+
+.mfoot{display: block; margin: 0 auto; background-color: #000;}
+.mfoot>ul{width: 93.6%; margin:  0 auto;}
+.mfoot>ul>li{min-height: 58px;border-bottom: 1px solid #fff;margin-bottom: 13px;line-height: 58px;}
+.mfoot>ul>li h1{font-size: 18px;color: #fff;}
+.mfoot>ul>li img{margin-top: 18px;}
+.mfoot>ul>li .sonList{display: none;}
+.mfoot>ul>li .sonList li{height: 30px;line-height: 30px;font-size: 16px;padding-left: 10px; color: #fff;}
+.mfoot>ul>li .sonList li a{color: #fff;}
+.mfoot>ul>li:last-child{margin-bottom: 0; border-bottom: 0;}
+.mfoot .code{width: 100%; padding-bottom: 40px;}
+.mfoot .code img{display: block; margin: 15px auto 10px;}
+.mfoot .code  p{font-size: 24px; color: #fff; text-align: center;}
+}

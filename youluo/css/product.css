@@ -1,0 +1,81 @@
+.banner{padding-top: 120px; position: relative;}
+.banner img{width: 100%; display: block;}
+.banner .img1{height:655px;}
+.banner .img2{height:204px;}
+.banner .banDiv{width: 910px; position: absolute;left: 50%; margin-left: -455px; top: 200px;  text-align: center;}
+.banner .banDiv h2{font-size: 26px; color: #fff; margin-top: 20px; margin-bottom: 45px; letter-spacing: 4px;}
+.banner .banDiv p{width: 676px; font-size: 18px; color: #fff; margin: 0 auto; text-indent: 60px;}
+.banner .banDiv .copy{margin-top: 80px;}
+.banner .banDiv .copy a{display: block; width: 152px; height: 46px; font-size: 20px; color: #333; float: left; text-align: center; line-height: 46px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 246px;}
+
+/*.classifyList li{width: 300px; float: left; margin-right: 50px; text-align: center; padding-top: 60px; position: relative;}
+.classifyList li:last-child{margin-right: 0;}
+.classifyList li span{ position: absolute; bottom: 0; left: 0; width: 0px; height: 2px; background-color: #202020;}
+.classifyList li h2{font-size: 24px; text-align: center; color: #333; margin-top: 35px; margin-bottom: 25px;}
+
+.kong{}*/
+
+/*内容部分*/
+.bot{margin-top: 65px;}
+.menuL{width: 280px; /*position: fixed; left: 330px; bottom: 0;*/}
+.menuList{border: 1px solid #959595;}
+.menuList li{height: 55px; line-height: 55px; text-align: center;  border-bottom: 1px solid #999;}
+.menuList li a{font-size: 22px; color: #fff; display: block; width: 100%; height: 100%;background-color: #434343;}
+.activeList{background-color: #fff !important; color: #333 !important; font-size: 28px !important;}
+
+.contentR{width: 650px; overflow: hidden; position: relative; /*min-height: 2100px;*/}
+.contentItem{padding-bottom: 65px; border-bottom: 1px solid #838383; margin-bottom: 60px; position: relative;}
+.contentItem:last-child{margin-bottom: 0; border: 0;}
+.contentItem>h2{z-index:999; height: 35px; line-height: 38px; padding-left: 28px; border-left: 4px solid #000; font-size: 36px; margin-bottom: 40px;}
+.contentItem .pic{position: relative; margin-bottom: 25px;}
+.contentItem .pic .txt{position: absolute; width: 490px; height: 155px; padding-top: 35px; left: 50%; top: 50%; margin-left: -245px; margin-top: -95px; border: 1px solid #fff; letter-spacing: 2px;}
+.contentItem .pic .txt h2{color: #fff; text-align: center;}
+.contentItem .pic .txt p{padding: 0 32px; text-align: center; color: #fff; font-size: 18px; line-height: 28px; margin-top: 10px;}
+.contentItem p{color: #666; font-size: 22px; line-height: 33px; margin: 10px 0;}
+
+/*.contentR .allItem{position: absolute;top: 0px; left: 0;}*/
+
+
+/*================================++移动端++=================================*/
+@media only screen and (min-width: 300px) and (max-width: 768px){
+.banner{padding-top: 86px; position: relative; height: 300px;}
+.banner>img{height: 100%!important; display: block; /*width: auto;*/}
+.banner .banDiv{width: 90%; position: absolute;left: 50%; margin-left: -45%; top: 105px; text-align: center;}
+.banner .banDiv img{width: 100%;height: auto!important;}
+.banner .banDiv h2{font-size: 20px; color: #fff; margin-top: 20px; margin-bottom: 45px; letter-spacing: 4px;}
+.banner .banDiv p{width: 100%; font-size: 18px; color: #fff; margin: 0 auto; text-indent: 0px; display: none;}
+.banner .banDiv .copy{width:300px;margin: 0px auto;}
+.banner .banDiv .copy a{display: block; width: 113px; height: 35px; font-size: 18px; color: #333; float: left; text-align: center; line-height: 35px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy .personal{margin-left: 2% !important;}
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 16%;}
+
+/*.classifyList li{width: 300px; float: left; margin-right: 50px; text-align: center; padding-top: 60px; position: relative;}
+.classifyList li:last-child{margin-right: 0;}
+.classifyList li span{ position: absolute; bottom: 0; left: 0; width: 0px; height: 2px; background-color: #202020;}
+.classifyList li h2{font-size: 24px; text-align: center; color: #333; margin-top: 35px; margin-bottom: 25px;}
+
+.kong{}*/
+
+/*内容部分*/
+.bot{margin-top: 65px;}
+.menuL{width: 280px; /*position: fixed; left: 330px; bottom: 0;*/ display: none;}
+.menuList{border: 1px solid #959595;}
+.menuList li{height: 55px; line-height: 55px; text-align: center;  border-bottom: 1px solid #999;}
+.menuList li a{font-size: 22px; color: #fff; display: block; width: 100%; height: 100%;background-color: #434343;}
+.activeList{background-color: #fff !important; color: #333 !important; font-size: 28px !important;}
+
+.contentR{width: 100%; overflow: hidden; position: relative; /*min-height: 2100px;*/}
+.contentItem{padding-bottom: 40px; border-bottom: 1px solid #838383; width: 93.6%; margin: 0 auto; margin-bottom: 60px; position: relative;}
+.contentItem:last-child{margin-bottom: 0; border: 0;}
+.contentItem>h2{ height: 30px; line-height: 27px; padding-left: 28px; border-left: 4px solid #000; font-size: 30px; margin-bottom: 40px;}
+.contentItem .pic{position: relative; margin-bottom: 25px;}
+.contentItem .pic img{width: 100%; min-height: 280px;}
+.contentItem .pic .txt{position: absolute; width: 96%; height: auto; padding-top: 25px; left: 50%; top: 50%; margin-left: -48%; margin-top: -20%; border: 1px solid #fff; letter-spacing: 2px;}
+.contentItem .pic .txt h2{color: #fff; text-align: center; font-size: 20px;}
+.contentItem .pic .txt p{padding: 0 10px; text-align: center; color: #fff; font-size: 16px; line-height: 25px; margin-top: 10px;}
+.contentItem p{color: #666; font-size: 16px; line-height: 33px; margin: 10px 0;}
+
+/*.contentR .allItem{position: absolute;top: 0px; left: 0;}*/
+
+}

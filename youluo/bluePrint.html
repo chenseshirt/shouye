@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>蓝图</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content="游络">
+		<meta name="description" content="游络">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/dropkick.css" />
+		<link rel="stylesheet" href="css/bluePrint.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.dropkick-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$.fn.clicktoggle = function(a, b) {
+
+				return this.each(function() {
+
+					var clicked = false;
+
+					$(this).click(function() {
+
+						if(clicked) {
+
+							clicked = false;
+
+							return b.apply(this, arguments);
+
+						}
+
+						clicked = true;
+
+						return a.apply(this, arguments);
+
+					});
+
+				});
+
+			};
+
+			document.createElement("gist");
+
+			$.fn.ready(function() {
+
+				$('.default').dropkick();
+
+				$('.black').dropkick({
+
+					theme: 'black'
+
+				});
+
+				$('.change').dropkick({
+
+					change: function(value, label) {
+
+						alert('You picked: ' + label + ':' + value);
+
+					}
+
+				});
+
+				$('.existing_event').dropkick();
+
+				$('.custom_theme').dropkick({
+
+					theme: 'black',
+
+					change: function(value, label) {
+
+						$(this).dropkick('theme', value);
+
+					}
+
+				});
+
+				$('.dk_container').first().focus();
+
+				$('#enable_sample').clicktoggle(
+
+					function() {
+
+						$('[name="country-disabled"]').dropkick('disable', false);
+
+						$(this).html('Disable')
+
+					},
+
+					function() {
+
+						$('[name="country-disabled"]').dropkick('disable');
+
+						$(this).html('Enable')
+
+					}
+
+				);
+
+			});
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="center-box">
+				<div class="top clearfix">
+					<form action=""><div class="search fl"><input type="text" placeholder="搜索更多内容" /><img src="img/search.png" alt="" /></div></form>
+					<div class="ava fr"><img src="img/ava.png" alt="" /></div>
+				</div>
+				<div class="nav clearfix">
+					<a href="index.html" class="fl"><img src="img/logo.png" alt="" /></a>
+					<ul class="navList clearfix fl">
+						<li><a href="index.html">首页<span></span></a></li>
+						<li><a href="product.html" class="on">产品<span style="background-color: #03a4f6 !important;"></span></a></li>
+						<li><a href="solutionCase.html">解决方案<span></span></a></li>
+						<li><a href="service.html">服务<span></span></a></li>
+						<li><a href="study.html">学习<span></span></a></li>
+						<li><a href="case.html">案例<span></span></a></li>
+						<li><a href="###">社区<span>	</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--移动端-->
+		<div class="mheader">
+			<div class="header_box clear">
+				<a class="logo" href="index.html">
+					<img src="img/logo.png"/>
+				</a>
+				<div class="right fr">
+					<div class="search">
+						<input type="text" style="display: none;" class="fl" /><img class="fr" src="img/fdj.png" alt="" />
+					</div>
+					<span class="m-menu"><img src="img/m-nav.png"/></span>
+				</div>
+				<ul class="m-nav">
+					<li><a class="cur" href="index.html">首页 <span class="line"></span></a></li>
+					<li><a href="product.html">产品</a></li>
+					<li><a href="solutionCase.html">解决方案</a></li>
+					<li><a href="service.html">服务</a></li>
+					<li><a href="study.html">学习</a></li>
+					<li><a href="case.html">案例 <span class="line"></span></a></li>
+					<li><a href="###">社区 <span class="line"></span></a></li>
+				</ul>
+			</div>						
+		</div>
+		<!--移动端结束-->
+		<!--头部结束-->
+		<script type="text/javascript">
+			$('.m-menu').click(function(event) {
+				event = event || window.event;
+				event.stopPropagation();
+				$('.m-nav').slideToggle(300);
+			});
+		</script>
+		
+		<!--banner-->
+		<div class="banner">
+			<img class="img1" src="img/blue.jpg" alt="" />
+			<div class="banDiv">
+				<img class="img2" src="img/protxt.png" alt="" />
+				<h2>蓝图</h2>
+				<p>在这里可以随时掌握和了解我们未来的计划，以及我们在新版本中提供的新功能和改进。</p>
+				<a class="update" href="###">订阅</a>
+			</div>
+		</div>
+		<!--banner结束-->
+		
+		<!--主体内容部分-->
+			<div class="maincontainer center-box">
+				<ul class="classifyList clearfix">
+					<li>
+						<a href="product.html">
+							<img src="img/cal1_l.png" alt="" />
+							<h2>功能</h2>
+							<span></span>
+						</a>
+					</li>
+					<li>
+						<a href="bluePrint.html">
+							<img src="img/cal2_g.png" alt="" />
+							<h2>蓝图</h2>
+							<span class="kong" style="width: 366px;"></span>
+						</a>
+					</li>
+					<li>
+						<a href="show.html">
+							<img src="img/cal3.png" alt="" />
+							<h2>演示</h2>
+							<span></span>
+						</a>
+					</li>
+				</ul>
+				<!--选择-->
+				<div class="choose">
+					<div class="kuai"></div>
+					<ul class="chooseContent clearfix">
+						<li class="fl">
+							<h1>标签</h1>
+							<select name="state" class="default" tabindex="3">
+
+								<option value="" selected disabled>所有</option>
+	
+								<option value="AL">Alabama</option>
+	
+								<option value="AK">Alaska</option>
+	
+								<option value="AZ">Arizona</option>
+	
+								<option value="AR">Arkansas</option>
+	
+								<option value="CA">California</option>
+	
+								<option value="CO">Colorado</option>
+	
+								<option value="CT">Connecticut</option>
+	
+								<option value="DE">Delaware</option>
+	
+								<option value="FL">Florida</option>
+	
+								<option value="GA">Georgia</option>
+	
+								<option value="HI">Hawaii</option>
+	
+								<option value="ID">Idaho</option>
+	
+								<option value="IL">Illinois</option>
+	
+								<option value="IN">Indiana</option>
+	
+								<option value="IA">Iowa</option>
+	
+								<option value="KS">Kansas</option>
+	
+								<option value="KY">Kentucky</option>
+	
+								<option value="LA">Louisiana</option>
+	
+								<option value="ME">Maine</option>
+	
+								<option value="MD">Maryland</option>
+	
+								<option value="MA">Massachusetts</option>
+	
+								<option value="MI">Michigan</option>
+	
+								<option value="MN">Minnesota</option>
+	
+								<option value="MS">Mississippi</option>
+	
+								<option value="MO">Missouri</option>
+	
+								<option value="MT">Montana</option>
+	
+								<option value="NE">Nebraska</option>
+	
+								<option value="NV">Nevada</option>
+	
+								<option value="NH">New Hampshire</option>
+	
+								<option value="NJ">New Jersey</option>
+	
+								<option value="NM">New Mexico</option>
+	
+								<option value="NY">New York</option>
+	
+								<option value="NC">North Carolina</option>
+	
+								<option value="ND">North Dakota</option>
+	
+								<option value="OH">Ohio</option>
+	
+								<option value="OK">Oklahoma</option>
+	
+								<option value="OR">Oregon</option>
+	
+								<option value="PA">Pennsylvania</option>
+	
+								<option value="RI">Rhode Island</option>
+	
+								<option value="SC">South Carolina</option>
+	
+								<option value="SD">South Dakota</option>
+	
+								<option value="TN">Tennessee</option>
+	
+								<option value="TX">Texas</option>
+	
+								<option value="UT">Utah</option>
+	
+								<option value="VT">Vermont</option>
+	
+								<option value="VA">Virginia</option>
+	
+								<option value="WA">Washington</option>
+	
+								<option value="WV">West Virginia</option>
+	
+								<option value="WI">Wisconsin</option>
+	
+								<option value="WY">Wyoming</option>
+
+							</select>
+						</li>
+						<li class="fr">
+							<h1>状态</h1>
+							<select name="state" class="default" tabindex="3">
+
+								<option value="" selected disabled>所有</option>
+	
+								<option value="AL">Alabama</option>
+	
+								<option value="AK">Alaska</option>
+	
+								<option value="AZ">Arizona</option>
+	
+								<option value="AR">Arkansas</option>
+	
+								<option value="CA">California</option>
+	
+								<option value="CO">Colorado</option>
+	
+								<option value="CT">Connecticut</option>
+	
+								<option value="DE">Delaware</option>
+	
+								<option value="FL">Florida</option>
+	
+								<option value="GA">Georgia</option>
+	
+								<option value="HI">Hawaii</option>
+	
+								<option value="ID">Idaho</option>
+	
+								<option value="IL">Illinois</option>
+	
+								<option value="IN">Indiana</option>
+	
+								<option value="IA">Iowa</option>
+	
+								<option value="KS">Kansas</option>
+	
+								<option value="KY">Kentucky</option>
+	
+								<option value="LA">Louisiana</option>
+	
+								<option value="ME">Maine</option>
+	
+								<option value="MD">Maryland</option>
+	
+								<option value="MA">Massachusetts</option>
+	
+								<option value="MI">Michigan</option>
+	
+								<option value="MN">Minnesota</option>
+	
+								<option value="MS">Mississippi</option>
+	
+								<option value="MO">Missouri</option>
+	
+								<option value="MT">Montana</option>
+	
+								<option value="NE">Nebraska</option>
+	
+								<option value="NV">Nevada</option>
+	
+								<option value="NH">New Hampshire</option>
+	
+								<option value="NJ">New Jersey</option>
+	
+								<option value="NM">New Mexico</option>
+	
+								<option value="NY">New York</option>
+	
+								<option value="NC">North Carolina</option>
+	
+								<option value="ND">North Dakota</option>
+	
+								<option value="OH">Ohio</option>
+	
+								<option value="OK">Oklahoma</option>
+	
+								<option value="OR">Oregon</option>
+	
+								<option value="PA">Pennsylvania</option>
+	
+								<option value="RI">Rhode Island</option>
+	
+								<option value="SC">South Carolina</option>
+	
+								<option value="SD">South Dakota</option>
+	
+								<option value="TN">Tennessee</option>
+	
+								<option value="TX">Texas</option>
+	
+								<option value="UT">Utah</option>
+	
+								<option value="VT">Vermont</option>
+	
+								<option value="VA">Virginia</option>
+	
+								<option value="WA">Washington</option>
+	
+								<option value="WV">West Virginia</option>
+	
+								<option value="WI">Wisconsin</option>
+	
+								<option value="WY">Wyoming</option>
+
+							</select>
+						</li>
+					</ul>
+					<!--状态选择-->
+					<div class="stateChoose clearfix">
+						<div class="fl"><div class="dot fl" style="border: 1px solid #ebab21;"><span style="background-color: #ebab21;"></span></div>有一定风险</div>
+						<div class="fl"><div class="dot fl"><span></span></div>延迟</div>
+						<div class="fl"><div class="dot fl"><span></span></div>风险</div>
+					</div>
+					<!--状态选择结束-->
+				</div>
+				<!--选择结束-->
+				<!--下载-->
+				<div class="onload clearfix">
+					<div class="left fl">2017.2.0</div>
+					<a class="load fr" href="###">下载当前版本</a>
+				</div>
+				<p class="date">2017年10月12日发布</p>
+				<!--下载结束-->
+				
+				<ul class="blueList">
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">2D Tilemap</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">Androidben本机崩溃报告</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">AssetBundle LoadfromStream</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">Async Operation完成事件</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">确定性进口商：进口的嵌入材料</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">GI分析器</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">GoogleVRGoogleVR 视频异步重投影</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+					<li>
+						<div class="bTit clearfix"><h1 class="fl">HDR辐射</h1><div class="arrow"><img src="img/right.png" alt="" /></div><div class="sanwei fr">2D</div></div>
+						<div class="blueItem" style="display: none;">
+							<h2>包括：</h2>
+							<div class="clearfix"><div class="dian fl"><span></span></div><p class="fl">新的Tilemapcollider2D为2D Tilemap生成每个瓦片的碰撞器。</p></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		<!--主体内容结束-->
+		<!--底部-->
+		<footer>
+			<div class="center-box" style="position: relative;">
+				<ul class="footerList clearfix">
+					<li>
+						<h1>关于CBE</h1>
+						<p><a href="###">公司概况</a></p>
+						<p><a href="###">活动</a></p>
+						<p><a href="###">工作机会</a></p>
+						<p><a href="###">联系</a></p>
+						<p><a href="###">合作伙伴</a></p>
+					</li>
+					<li>
+						<h1>资源</h1>
+						<p><a href="###">学习</a></p>
+						<p><a href="###">文档</a></p>
+						<p><a href="###">社区</a></p>
+						<p><a href="###">问答中心</a></p>
+						<p><a href="###">常见问题</a></p>
+					</li>
+					<li>
+						<h1>购买</h1>
+						<p><a href="###">订阅</a></p>
+						<p><a href="###">组件商店</a></p>
+					</li>
+					<li>
+						<h1>下载</h1>
+						<p><a href="###">CEB引擎</a></p>
+						<p><a href="###">白皮书</a></p>
+					</li>
+				</ul>
+				<div class="copyright">2018 Yolo Technogies</div>
+				<div class="share inner bdsharebuttonbox">
+					<a class="circle weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+					<a class="circle qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+					<a class="circle wexin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+				</div>
+			</div>
+		</footer>
+		<!--移动端-->
+			<div class="mfooter">
+				<ul class="mList">
+					<li class="clearfix">
+						<div class="clearfix"><h1 class="fl">关于CBE</h1><img class="fr mr" src="img/mr.png" alt="" /></div>
+						<ul class="sonList">
+							<li>
+								<a href="###">公司概况</a>
+							</li>
+							<li>
+								<a href="###">活动</a>
+							</li>
+							<li>
+								<a href="###">工作机会</a>
+							</li>
+							<li>
+								<a href="###">联系</a>
+							</li>
+							<li>
+								<a href="###">合作伙伴</a>
+							</li>
+						</ul>
+					</li>
+					<li class="clearfix">
+						<div class="clearfix"><h1 class="fl">资源</h1><img class="fr mr" src="img/mr.png" alt="" /></div>
+						<ul class="sonList">
+							<li>
+								<a href="###">学习</a>
+							</li>
+							<li>
+								<a href="###">文档</a>
+							</li>
+							<li>
+								<a href="###">社区</a>
+							</li>
+							<li>
+								<a href="###">问答中心</a>
+							</li>
+							<li>
+								<a href="###">常见问题</a>
+							</li>
+						</ul>
+					</li>
+					<li class="clearfix">
+						<div class="clearfix"><h1 class="fl">购买</h1><img class="fr mr" src="img/mr.png" alt="" /></div>
+						<ul class="sonList">
+							<li>
+								<a href="###">订阅</a>
+							</li>
+							<li>
+								<a href="###">组件商店</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="clearfix"><h1 class="fl">下载</h1><img class="fr mr" src="img/mr.png" alt="" /></div>
+						<ul class="sonList">
+							<li>
+								<a href="###">CEB引擎</a>
+							</li>
+							<li>
+								<a href="###">白皮书</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="mcopyright clearfix">
+					<div class="cpyTxt fl">2018 Yolo Technogies</div>
+					<div class="share fr inner bdsharebuttonbox">
+						<a class="circle weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+						<a class="circle qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+						<a class="circle wexin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+					</div>
+				</div>
+			</div>
+		<!--移动端-->
+		<!--底部结束-->
+		
+		
+		
+		<script src="js/mobile.js"></script>
+		<script src="js/base.js"></script>
+		<script>
+			$(".stateChoose>div>.dot").click(function(){
+				$(this).css({
+					border:"1px solid #ebab21"
+				}).parents("div").siblings() .find(".dot").css({
+					border:"1px solid #333"
+				});
+				$(this).find("span").css({
+					backgroundColor:"#ebab21"
+				}).parents("div").siblings().find("span").css({
+					backgroundColor:"#333"
+				})
+				
+			})
+			
+			//点击显示blutItem
+			var flag = true;
+			$(".arrow").on("click",function(){
+				var _this=$(this);
+				$(this).parents("li").find(".blueItem").slideToggle(300,function(){
+					if(_this.parents("li").find(".blueItem").css("display") == "block"){
+						console.log(1)
+						_this.css({
+						float:"left"
+						})
+						_this.parents("li").find(".sanwei").css({display:"block"});
+						_this.find("img").attr("src","img/boot.png");
+					}else{
+						_this.css({
+						float:"right"
+						})
+						_this.find("img").attr("src","img/right.png");
+						_this.parents("li").find(".sanwei").css({display:"none"});
+					}
+				});
+				$(this).parents("li").siblings().find(".blueItem").slideUp(300,function(){
+					_this.parents("li").siblings().find(".arrow").css({
+						float:"right"
+					})
+					_this.parents("li").siblings().find(".arrow img").attr("src","img/right.png")
+					_this.parents("li").siblings().find(".sanwei").css({display:"none"});
+				});
+				
+		});
+		</script>
+	</body>
+</html>

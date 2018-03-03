@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>比赛</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content="游络">
+		<meta name="description" content="游络">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/dropkick.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/match.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.dropkick-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$.fn.clicktoggle = function(a, b) {
+
+				return this.each(function() {
+
+					var clicked = false;
+
+					$(this).click(function() {
+
+						if(clicked) {
+
+							clicked = false;
+
+							return b.apply(this, arguments);
+
+						}
+
+						clicked = true;
+
+						return a.apply(this, arguments);
+
+					});
+
+				});
+
+			};
+
+			document.createElement("gist");
+
+			$.fn.ready(function() {
+
+				$('.default').dropkick();
+
+				$('.black').dropkick({
+
+					theme: 'black'
+
+				});
+
+				$('.change').dropkick({
+
+					change: function(value, label) {
+
+						alert('You picked: ' + label + ':' + value);
+
+					}
+
+				});
+
+				$('.existing_event').dropkick();
+
+				$('.custom_theme').dropkick({
+
+					theme: 'black',
+
+					change: function(value, label) {
+
+						$(this).dropkick('theme', value);
+
+					}
+
+				});
+
+				$('.dk_container').first().focus();
+
+				$('#enable_sample').clicktoggle(
+
+					function() {
+
+						$('[name="country-disabled"]').dropkick('disable', false);
+
+						$(this).html('Disable')
+
+					},
+
+					function() {
+
+						$('[name="country-disabled"]').dropkick('disable');
+
+						$(this).html('Enable')
+
+					}
+
+				);
+
+			});
+		</script>
+	</head>
+	<body>
+		<div class="banner">
+			<img class="ban_bg" src="img/match.jpg" alt="" />
+			<img class="mban_bg" src="img/mban.jpg" alt="" />
+			<img class="zhanTxt" src="img/zhan.png" alt="" />
+		</div>
+		<!--主体-->
+		<div class="mainMatch">
+			<div class="matchList center-box">
+				<a href="###">关于我们</a><em></em>
+				<a href="###">大赛亮点</a><em></em>
+				<a href="###">赛事安排</a><em></em>
+				<a href="###">评选标准</a><em></em>
+				<a href="###">奖项设置</a><em></em>
+				<a href="###">大赛评委</a>
+			</div>
+			<div class="hr"></div>
+			<!--关于我们-->
+			<div class="aboutUs center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">关于我们</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>About us</p>
+				</div>
+				<div class="aboutContent clearfix">
+					<div class="leftContent fl">
+						<img src="img/1.jpg" alt="" />
+					</div>
+					<div class="rightContent fr">
+						<h2>电魂网络</h2>
+						<p>杭州电魂网络科技股份有限公司（简称电魂）是一家年轻而有活力的互联网公司，是集创意策划，美术设计，技术研发，产品开发，游戏推光，运营维护，海外合作于一体的游戏开发商，运营商。</p>
+						<span></span>
+						<h2>combloak介绍</h2>
+						<p>杭州电魂网络科技股份有限公司（简称电魂）是一家年轻而有活力的互联网公司，是集创意策划，美术设计，技术研发，产品开发，游戏推光，运营维护，海外合作于一体的游戏开发商，运营商。</p>
+					</div>
+				</div>
+			</div>
+			<!--关于我们结束-->
+			<hr />
+			<!--大赛亮点-->
+			<div class="matchLight center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">大赛亮点</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>contest highlists</p>
+				</div>
+				<ul class="picList clearfix">
+					<li><img src="img/2.jpg" alt="" /></li>
+					<li><img src="img/3.jpg" alt="" /></li>
+					<li><img src="img/4.jpg" alt="" /></li>
+				</ul>
+			</div>
+			<!--大赛亮点结束-->
+			<!--助力成功-->
+			<div class="getSuccess center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">KBEngine</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p style="color: #333;">让我们助您获得成功</p>
+				</div>
+				<div class="success">
+					<p>一款开发MMOG游戏服务端引擎,仅Python脚本即可简单高效的完成任何游戏逻辑（支持热更新），使用配套客户端插件能够快速余unity3DUE4 OGRE HTML5/等等,结合形成一个完成的客户端。</p>
+					<span></span>
+					<p>引擎使用C++编写，开发者无需重复的实现游戏服务端通用的地城技术，将精力真正集中到游戏开发森面上，稳定即靠并且快速的打造各种网路游戏。</p>
+					<span></span>
+					<ul class="successList clearfix">
+						<li>
+							<img src="img/5.jpg" alt="" />
+							<p>Online communtiy tools</p>
+						</li>
+						<li>
+							<img src="img/7.jpg" alt="" />
+							<p>Direct Technical support</p>
+						</li>
+						<li>
+							<img src="img/8.jpg" alt="" />
+							<p>Monthly Office Hours</p>
+						</li>
+						<li>
+							<img src="img/9.jpg" alt="" />
+							<p>Benefits Portal</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--助力成功结束-->
+			<hr />
+			<div class="reward center-box">
+				<h2>凡参与本届开源大赛并获得前三名的团队既有机会</h2>
+				<div class="bot clearfix">
+					<div class="fl">
+						<h3>1、应用将（3名）-----￥88888</h3>
+						<h3>2、应用将（3名）-----￥88888</h3>
+						<h3>3、应用将（3名）-----￥88888</h3>
+						<p>查看更多福利请登录网址：<a href="https://unity3d.com">https://unity3d.com</a></p>
+					</div>
+					<div class="img fr">
+						<img src="img/10.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+			<hr />
+			<div class="arrage center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">赛事安排</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>Event arrangement</p>
+				</div>
+				<div class="arrageContent">
+					<div class="arrTit clearfix">
+						<h1 class="fl">参赛团队资格</h1>
+						<img class="fr" style="cursor: pointer;" src="img/hand.png" alt="" />
+					</div>
+					<div class="lines"></div>
+					<ul class="rewardList">
+						<li>每个团队每类最多允许提交一个产品</li>
+						<li>原创性  合法性</li>
+						<li>相关内容研发公司，独立工作室，在职程序员，相关专业大学生登。团队需提供相关企业资质。</li>
+					</ul>
+					<!--2-->
+					<div class="arrTit clearfix">
+						<h1 class="fl">参赛团队资格</h1>
+						<img class="fr" style="cursor: pointer;" src="img/hand.png" alt="" />
+					</div>
+					<div class="lines"></div>
+					<ul class="rewardList">
+						<li>第三方测试初审：利用专业游戏测试系统对游戏进行初始打分评测</li>
+						<li>专家评审：从游戏美术，玩法，技术，创意等多个专业角度，整体进行审核。</li>
+						<li>网友投股：分析群众喜好，调查用户体验。</li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			<div class="standard center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">评选标准</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>criteria for selection</p>
+				</div>
+				<div class="choose clearfix">
+					<div class="num fl">1、</div>
+					<select name="state" class="default" tabindex="3">
+
+						<option value="" selected disabled>标准</option>
+
+						<option value="AL">标准1</option>
+
+						<option value="AK">标准2</option>
+
+						<option value="AZ">标准3</option>
+
+						<option value="AR">标准4</option>
+
+						<option value="CA">标准5</option>
+
+						<option value="CO">标准6</option>
+					</select>
+				</div>
+				<div class="choose clearfix">
+					<div class="num fl">2、</div>
+					<select name="state" class="default" tabindex="3">
+
+						<option value="" selected disabled>标准</option>
+
+						<option value="AL">标准1</option>
+
+						<option value="AK">标准2</option>
+
+						<option value="AZ">标准3</option>
+
+						<option value="AR">标准4</option>
+
+						<option value="CA">标准5</option>
+
+						<option value="CO">标准6</option>
+					</select>
+				</div>
+				<div class="choose clearfix">
+					<div class="num fl">3、</div>
+					<select name="state" class="default" tabindex="3">
+
+						<option value="" selected disabled>标准</option>
+
+						<option value="AL">标准1</option>
+
+						<option value="AK">标准2</option>
+
+						<option value="AZ">标准3</option>
+
+						<option value="AR">标准4</option>
+
+						<option value="CA">标准5</option>
+
+						<option value="CO">标准6</option>
+					</select>
+				</div>
+			</div>
+			<hr />
+			<!--奖项设置-->
+			<div class="set center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">奖项设置</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>Award setting</p>
+				</div>
+				<div class="setContent">
+					<ul class="setList clearfix">
+						<li>
+							<img src="img/11.jpg" alt="" />
+							<p>商业组</p>
+						</li>
+						<li>
+							<img src="img/11.jpg" alt="" />
+							<p>原创组</p>
+						</li>
+						<li>
+							<img src="img/11.jpg" alt="" />
+							<p>赞助商</p>
+						</li>
+					</ul>
+					<div class="setDetail clearfix"><h1 class="fl">获奖详情</h1><a href="###"><img class="fr" src="img/right.png" alt="" /></a></div>
+				</div>
+			</div>
+			<!--奖项设置结束-->
+			<hr />
+			<!--大赛评委-->
+			<div class="judges center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">大赛评委</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>Contest judges</p>
+				</div>
+				<div class="ge"></div>
+				<ul class="judgesList clearfix">
+					<li>
+						<a href="###">
+							<img src="img/12.jpg" alt="" />
+							<h1>TBD</h1>
+							<p>海外知名游戏</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="img/12.jpg" alt="" />
+							<h1>TBD</h1>
+							<p>海外知名游戏</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="img/12.jpg" alt="" />
+							<h1>TBD</h1>
+							<p>海外知名游戏</p>
+						</a>
+					</li>
+					<li>
+						<a href="###">
+							<img src="img/12.jpg" alt="" />
+							<h1>TBD</h1>
+							<p>海外知名游戏</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--大赛评委结束-->
+			<hr />
+			<!--合作伙伴-->
+			<div class="partner center-box">
+				<div class="title">
+					<div class="titleTop">
+						<div class="linel fl"><span></span></div>
+						<h1 class="fl">合作伙伴</h1>
+						<div class="liner fr"><span></span></div>
+					</div>
+					<p>Cooperative partner</p>
+				</div>
+				<ul class="partnerList clearfix">
+					<li><img src="img/p1.jpg" alt="" /></li>
+					<li><img src="img/p2.jpg" alt="" /></li>
+					<li><img src="img/p3.jpg" alt="" /></li>
+					<li><img src="img/p4.jpg" alt="" /></li>
+					<li><img src="img/p5.jpg" alt="" /></li>
+					<li><img src="img/p6.jpg" alt="" /></li>
+					<li><img src="img/p7.jpg" alt="" /></li>
+					<li><img src="img/p8.jpg" alt="" /></li>
+					<li><img src="img/p9.jpg" alt="" /></li>
+					<li><img src="img/p10.jpg" alt="" /></li>
+				</ul>
+			</div>
+			<!--合作伙伴结束-->
+		</div>
+		<!--主体结束-->
+		<div class="foot">
+			<div class="inner center-box">
+				<p>由深圳英宝通科技有限公司主办，是一个面向技术开发者的大型赛事，自2012年起已成功举办四届，目前已成为业界内知名度高、影响力广泛的活动平台，在历届大寒中，诞生了大是优秀开发者和作品。蛮牛杯将秉承挖掘、引导、对接、打造的理念，以大塞为驱动引领行业和开发者发展，让开发者一直走科技的最前沿。</p>
+				<div class="fotLine"></div>
+				<div class="lianjie">
+					<ul class="lianList clearfix">
+						<li>
+							<h1>大赛相关</h1>
+							<p>历届回顾</p>
+							<p>作品欣赏</p>
+							<p>颁奖现场</p>
+						</li>
+						<li>
+							<h1>联系我们</h1>
+							<p>电话：+++++++++++</p>
+							<p>邮箱：+++++++++++</p>
+						</li>
+						<li>
+							<h1>友情链接</h1>
+							<p>官网：<a href="###">+++++++++</a></p>
+							<p>社区：<a href="###">+++++++++</a></p>
+							<p>论坛：<a href="###">+++++++++</a></p>
+						</li>
+					</ul>
+				</div>
+				<img class="code" src="img/code.jpg" alt="" />
+			</div>
+		</div>
+		<!--脚部结束-->
+		<div class="mfoot">
+			<ul>
+				<li>
+					<div class="clearfix"><h1 class="fl">大赛相关</h1><img class="fr cmr" src="img/mr.png" alt="" /></div>
+					<ul class="sonList">
+						<li>历届回顾</li>
+						<li>作品欣赏</li>
+						<li>颁奖现场</li>
+					</ul>
+				</li>
+				<li>
+					<div class="clearfix"><h1 class="fl">联系我们</h1><img class="fr cmr" src="img/mr.png" alt="" /></div>
+					<ul class="sonList">
+						<li>电话：+++++++++++</li>
+						<li>邮箱：+++++++++++</li>
+					</ul>
+				</li>
+				<li>
+					<div class="clearfix"><h1 class="fl">友情链接</h1><img class="fr cmr" src="img/mr.png" alt="" /></div>
+					<ul class="sonList">
+						<li>官网：<a href="###">+++++++++</a></li>
+						<li>社区：<a href="###">+++++++++</a></li>
+						<li>论坛：<a href="###">+++++++++</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="code">
+				<img src="img/mcod.png" alt="" />
+				<p>官方微信</p >
+			</div>
+		</div>
+		
+		<script>
+			$(".cmr").click(function(){
+					var _this = $(this);
+			
+				$(this).parents("li").find(".sonList").slideToggle(300,function(){
+					if(_this.parents("li").find(".sonList").css("display") == "block"){
+						
+							_this.attr("src","img/mt.png");
+					}else{
+							_this.attr("src","img/mr.png");
+						}
+				});
+					if(_this.parents("li").find(".sonList").css("display") == "block"){
+						
+							_this.attr("src","img/mt.png");
+					}else{
+							_this.attr("src","img/mr.png");
+						}
+				
+				$(this).parents("li").siblings().find(".sonList").slideUp(300,function(){
+					_this.parents("li").siblings().find("img").attr("src","img/mr.png")
+				})
+			})
+		</script>
+	</body>
+</html>

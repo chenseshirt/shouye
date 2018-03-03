@@ -1,0 +1,98 @@
+.banner{padding-top: 120px; position: relative;}
+.banner>img{width: 100%;height: 575px; display: block;}
+.banner .banDiv{width: 910px; position: absolute;left: 50%; margin-left: -455px; top: 210px; text-align: left;}
+.banner .banDiv h1{font-size: 36px; color: #fff; line-height: 65px;}
+.banner .banDiv h2{ margin-top: 35px; margin-bottom: 65px; width: 80px; height: 10px; background-color: #fff}
+.banner .banDiv p{font-size: 28px; color: #fff; line-height: 55px;}
+.banner .banDiv .copy{margin-top: 80px;}
+.banner .banDiv .copy a{display: block; width: 152px; height: 46px; font-size: 20px; color: #333; float: left; text-align: center; line-height: 46px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 246px;}
+
+.service{margin-top: 130px;}
+.serviceList{    width: 1006px;
+    margin: 0px auto;border-bottom: 1px solid #999; margin-bottom: 20px;}    
+.serviceList li{width: 274px; float: left; margin-right: 89px; padding-bottom: 40px;}
+.serviceList li:last-child{margin-right: 0;}
+.serviceList li .pic{width: 100%; height: 153px; background: url(../img/li_bg.png) 58px 0 no-repeat; text-align: center;}
+.serviceList li .pic img{margin-top: 45px; margin-left: 10px;}
+.serviceList li h1{font-size: 25px; text-align: center; color: #333; margin-top: 15px; margin-bottom: 18px;}
+.serviceList li h2{font-size: 19px; text-align: center; line-height: 30px; color: #333;}
+.service .serviceList:last-child{border-bottom: 0;}
+
+.discount{width:100%;height: 500px; background: url(../img/discount.jpg) 0 0 no-repeat; background-size: cover; position: relative;}
+.discount .discountTxt{width: 900px; height: 300px; border: 1px solid #fff; position: absolute; left: 50%; top: 50%; margin-left: -450px; margin-top: -150px;} 
+.discount .discountTxt h1{font-size: 50px; text-align: center; color: #fff; margin-top: 20px; margin-bottom: 50px;}
+.discount .discountTxt p{font-size: 24px; color: #fff; text-align: center; line-height: 40px;}
+
+.onLine{margin-top: 150px; padding-bottom: 60px;}
+.onList li{margin-bottom: 55px;}
+.onList .leftTxt{width: 287px; text-align: right; margin-left: 80px;}
+.onList .leftTxt h1{font-size: 30px;}
+.onList .leftTxt h3{color: #999; font-size: 18px; margin-top: 11px;}
+.onList .spot{width: 34px; height: 34px; border: 1px solid #333; border-radius: 100%; margin-left: 215px; position: relative;}
+.onList .spot::after{position: absolute; height: 177px; width: 1px; background-color: #333; left: 18px; top: -72px; content: "";z-index: 0;}
+.onList .spot span{display: block; width: 28px; height: 28px; border-radius: 100%; background-color: #333; margin-left: 3px; margin-top: 3px;}
+.onList .rightTxt{width: 287px; text-align: left; margin-right: 80px;}
+.onList .rightTxt h1{font-size: 30px;}
+.onList .rightTxt h3{color: #999; font-size: 18px; margin-top: 11px;}
+
+.getService{padding-bottom: 110px;}
+.getService h1{text-align: center; font-size: 48px; color: #333; margin-bottom: 24px;}
+.getService h2{text-align: center; font-size: 25px; color: #666;}
+.getServiceList{margin-top: 80px;}
+.getServiceList li{width: 280px; float: left; margin-right: 26.6px; padding-top: 32px; height: 200px;box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.11);text-align: center;}
+.getServiceList li:last-child{margin-right: 0;}
+.getServiceList li h1{width: 40px; height: 4px; margin: 0 auto; background-color: #000; margin-top: 19px; margin-bottom: 33px;}
+.getServiceList li p{height: 76px; background-color: #03a4f6; line-height: 76px; color: #fff; font-size: 20px;}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+.banner{padding-top: 86px; position: relative; height: 300px;}
+.banner>img{height: 100%; display: block;}
+.banner .banDiv{width: 92%; position: absolute;left: 50%; margin-left: -45%; top: 132px; text-align: left;}
+.banner .banDiv h1{font-size: 25px; color: #fff; line-height: 44px;}
+.banner .banDiv h2{ margin-top: 11px; margin-bottom: 13px; width: 65px; height: 6px; background-color: #fff}
+.banner .banDiv p{font-size: 18px; color: #fff; line-height: 35px;}
+.banner .banDiv .copy{margin-top: 80px;}
+.banner .banDiv .copy a{display: block; width: 152px; height: 46px; font-size: 20px; color: #333; float: left; text-align: center; line-height: 46px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 246px;}
+
+.service{margin-top: 40px;}
+.serviceList{border-bottom: 1px solid #fff; width: 93.6%; margin: 0 auto;margin-bottom: 20px; }    
+.serviceList li{width: 100%; float: left; margin-right: 89px; padding-bottom: 20px;}
+.serviceList li:last-child{margin-right: 0;}
+.serviceList li .pic{width: 25%; height: 102px; background: url(../img/li_bg.png) 0px 5px no-repeat; background-size: 100% 100%; text-align: center; float: left;}
+.serviceList li .pic img{margin-top: 25px; margin-left: 10px; width: 50px;}
+.serviceList li .sezi{float: right; width: 70%;}
+.serviceList li h1{font-size: 20px; text-align: left; color: #333; margin-top: 15px; margin-bottom: 4px;}
+.serviceList li h2{font-size: 16px; text-align: left; line-height: 30px; color: #333;}
+.service .serviceList:last-child{border-bottom: 0;}
+
+.discount{height: 500px; background: url(../img/discount.jpg) 0 0 no-repeat; background-size: cover; position: relative;}
+.discount .discountTxt{width: 90%; height: 300px; border: 1px solid #fff; position: absolute; left: 50%; top: 50%; margin-left: -45%; margin-top: -150px;} 
+.discount .discountTxt h1{font-size: 30px; text-align: center; color: #fff; margin-top: 20px; margin-bottom: 50px;}
+.discount .discountTxt p{font-size: 20px; color: #fff; text-align: center; line-height: 32px;}
+
+.onLine{margin-top: 150px; padding-bottom: 60px;}
+.onList{width: 93.6%; margin: 0 auto;}
+.onList li{margin-bottom: 55px;}
+.onList .leftTxt{width: 42%; text-align: right; margin-left: 0;}
+.onList .leftTxt h1{font-size: 20px;}
+.onList .leftTxt h3{color: #999; font-size: 16px; margin-top: 11px;}
+.onList .spot{width: 30px; height: 30px; border: 1px solid #333; border-radius: 100%; margin-left: 4%;}
+.onList .spot::after{position: absolute; height: 177px; width: 1px; background-color: #333; left: 16px; top: -72px; content: "";z-index: 0;}
+.onList .spot span{display: block; width: 24px; height: 24px; border-radius: 100%; background-color: #333; margin-left: 3px; margin-top: 3px;}
+.onList .rightTxt{width: 44%; text-align: left; margin-right: 0;}
+.onList .rightTxt h1{font-size: 20px;}
+.onList .rightTxt h3{color: #999; font-size: 16px; margin-top: 11px;}
+
+.getService{padding-bottom: 0px;}
+.getService h1{text-align: center; font-size: 30px; color: #333; margin-bottom: 24px;}
+.getService h2{text-align: center; font-size: 18px; color: #666;}
+.getServiceList{margin-top: 80px; width: 93.6%; margin: 40px auto; padding-left: 1%;}
+.getServiceList li{width: 47%; float: left; margin-right: 5%; padding-top: 32px; height: 200px;box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.11);text-align: center; margin-bottom: 20px;}
+.getServiceList li:nth-child(2n){margin-right: 0;}
+.getServiceList li:last-child{margin-right: 0;}
+.getServiceList li h1{width: 40px; height: 4px; margin: 0 auto; background-color: #000; margin-top: 19px; margin-bottom: 33px;}
+.getServiceList li p{height: 76px; background-color: #03a4f6; line-height: 76px; color: #fff; font-size: 20px;}
+
+}

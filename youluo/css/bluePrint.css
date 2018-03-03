@@ -1,0 +1,149 @@
+.banner{padding-top: 120px; position: relative;}
+.banner img{width: 100%; display: block;}
+.banner .img1{height:655px;}
+.banner .img2{height:204px;}
+.banner .banDiv{width: 910px; position: absolute;left: 50%; margin-left: -455px; top: 200px; text-align: center;}
+.banner .banDiv h2{font-size: 60px; color: #fff; margin-top: 20px; margin-bottom: 45px; letter-spacing: 4px;}
+.banner .banDiv p{width: 494px; font-size: 18px; color: #fff; margin: 0 auto;}
+.banner .banDiv .copy{margin-top: 80px;}
+.banner .banDiv .copy a{display: block; width: 152px; height: 46px; font-size: 20px; color: #333; float: left; text-align: center; line-height: 46px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 246px;}
+.banner .banDiv .update{width: 118px;
+    height: 45px;
+    display: block;
+    background-color: #03a4f6;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 250px;
+    margin-left: -54px;}
+
+
+.maincontainer{padding-bottom: 75px;}
+.choose{margin-top: 82px;}    
+.chooseContent>li{width: 450px;}
+.chooseContent>li>h1{margin-bottom: 22px;}
+.dk_toggle.dk_label {
+    width: 410px!important;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    border-radius: 0;
+    color: #666;
+    padding: 10px 10px;
+    border-bottom: 1px solid #000;
+	}
+.dk_options a {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: normal;
+    padding: 8px 10px;
+    color: #666;
+}
+.stateChoose>div{margin-right: 34px;}
+.stateChoose .dot{width: 16px; height: 16px; border-radius: 100%; border: 1px solid #333; margin-right: 10px;}
+.stateChoose .dot span{width: 12px; height: 12px; display: block; margin-top: 2px; margin-left: 2px; background-color: #333; border-radius: 100%;}
+
+.onload{ height: 60px;padding: 17px 37px 0; background-color: #030122; margin-top: 60px;}
+.onload .left{ width: 300px; padding-left: 77px; color: #fff; background: url(../img/top.png) 0 center no-repeat; height: 47px; line-height: 47px; font-size: 26px;}
+.onload .load{width: 176px; background-color: #03a4f6; height: 47px; color: #fff; font-size: 20px; text-align: center; line-height: 47px; border-radius: 8px;}
+.date{text-align: right; font-size: 18px; margin-top: 22px;}
+
+.blueList{margin-top: 80px;}
+.blueList li {padding-bottom: 28px; border-bottom: 1px solid #999; margin-bottom: 50px;}
+.blueList li .bTit{ padding-left: 23px;min-height: 28px; border-left: 4px solid #000;;}
+.blueList li  .bTit h1{font-size: 30px; line-height: 35px; margin-right: 56px;}
+.blueList li  .bTit .arrow{float: right;  height: 28px;}
+.blueList li  .bTit .arrow img{height: 28px;cursor: pointer;}
+.blueList li  .bTit .sanwei{padding: 7px 15px; border: 1px solid #333; border-radius: 8px; display: none;}
+
+.blueItem{margin-top: 26px;}
+.blueItem h2{font-size: 30px; padding-left: 23px; text-align: left; margin-bottom: 20px;}
+.blueItem>div{padding-left: 64px;}
+.blueItem>div>p{color: #999; font-size: 24px;}
+.blueItem .dian{width: 16px; height: 16px; border: 1px solid #333; border-radius: 100%; margin-top: 6px; margin-right: 18px;}
+.blueItem .dian span{width: 12px; height: 12px; border-radius: 100%; background-color: #000; margin-top: 2px; margin-left: 2px; display: block;} 
+
+/*=========================++移动端++=================*/
+@media only screen and (min-width: 300px) and (max-width: 768px){
+.banner{padding-top: 86px; position: relative; height: 355px;}
+.banner>img{height: 100%!important; display: block; /*width: auto;*/}
+.banner .banDiv{width: 90%; position: absolute;left: 50%; margin-left: -45%; top: 105px; text-align: center;}
+.banner .banDiv img{width: 100%;height: auto!important;}
+.banner .banDiv h2{font-size: 34px; color: #fff; margin-top: 0px; margin-bottom: 10px; letter-spacing: 4px;}
+.banner .banDiv p{width: 100%; font-size: 18px; color: #fff; margin: 0 auto; line-height: 33px;}
+.banner .banDiv .copy{margin-top: 80px;}
+.banner .banDiv .copy a{display: block; width: 152px; height: 46px; font-size: 20px; color: #333; float: left; text-align: center; line-height: 46px; background-color: #fff; border-radius: 5px; }
+.banner .banDiv .copy a:nth-of-type(1){margin-left: 246px;}
+.banner .banDiv .update{width: 30%;
+    height: 40px;
+    display: block;
+    background-color: #03a4f6;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    left: 50%;
+    top: 60%;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-left: -15%;}
+
+
+.maincontainer{padding-bottom: 75px;}
+.choose{width: 80%;margin:40px auto;}    
+.chooseContent>li{width: 96%;float: left!important;}
+.chooseContent>li>h1{margin-bottom: 22px; font-size: 25px;}
+.dk_container{
+	width:100%!important;
+}
+.dk_toggle.dk_label {
+   width:100%!important;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #fff;
+    border-radius: 0;
+    color: #666;
+    padding: 10px 10px;
+    border-bottom: 1px solid #000;
+	}
+.dk_options a {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: normal;
+    padding: 8px 10px;
+    color: #666;
+}
+.stateChoose{padding-left: 2%;}
+.stateChoose>div{margin-right: 10px;}
+.stateChoose>div:last-child{margin-right: 0;}
+.stateChoose .dot{width: 16px; height: 16px; border-radius: 100%; border: 1px solid #333; margin-right: 10px;}
+.stateChoose .dot span{width: 12px; height: 12px; display: block; margin-top: 2px; margin-left: 2px; background-color: #333; border-radius: 100%;}
+
+.onload{ height: 60px;padding: 17px 8px 0; background-color: #030122; margin-top: 60px;}
+.onload .left{ width: 40%; padding-left: 30px; color: #fff; background: url(../img/top.png) 0 center no-repeat; background-size: 25px 15px; height: 47px; line-height: 47px; font-size: 21px;}
+.onload .load{width: 42%; background-color: #03a4f6; height: 40px; color: #fff; font-size: 18px; text-align: center; line-height: 40px; border-radius: 8px;}
+.date{text-align: right; font-size: 18px; margin-top: 22px; padding-right: 10px;}
+
+.blueList{margin-top: 80px; padding: 0 3.2%;}
+.blueList li {padding-bottom: 28px; border-bottom: 1px solid #999; margin-bottom: 20px;}
+.blueList li .bTit{ padding-left: 10px; min-height: 28px; border-left: 4px solid #000;;}
+.blueList li  .bTit h1{font-size: 18px; font-weight: bold; line-height: 35px; margin-right: 5px;}
+.blueList li  .bTit .arrow{float: right;  height: 28px;}
+.blueList li  .bTit .arrow img{height: 22px;cursor: pointer; margin-top: 7px;}
+.blueList li  .bTit .sanwei{padding: 2px 7px; border: 1px solid #333; border-radius: 8px; display: none;}
+
+.blueItem{margin-top: 26px;}
+.blueItem h2{font-size: 22px; padding-left: 0px; text-align: left; margin-bottom: 5px;}
+.blueItem>div{padding-left: 20px;}
+.blueItem>div>p{color: #999; font-size: 19px; width: 80%;}
+.blueItem .dian{width: 16px; height: 16px; border: 1px solid #333; border-radius: 100%; margin-top: 6px; margin-right: 18px;}
+.blueItem .dian span{width: 12px; height: 12px; border-radius: 100%; background-color: #000; margin-top: 2px; margin-left: 2px; display: block;} 
+
+}

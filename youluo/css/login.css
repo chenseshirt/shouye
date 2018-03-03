@@ -1,0 +1,65 @@
+html,body{height: 100%;background: url(../img/login_bg.jpg) center center no-repeat; background-size: cover;}
+.mainLogin{padding-top: 120px; background: url(../img/login_bg.jpg) 0 0 no-repeat; background-size: cover;}
+
+.form{padding: 27px 80px 44px; background-color: #fff;width: 402px; margin-top: 144px; border-radius: 5px;}
+.form>h2{text-align: center; padding-bottom: 25px; border-bottom: 1px solid #666; margin-bottom: 48px;}
+.form>.inp{margin-bottom: 20px;}
+.form>.inp>input{width: 360px; height: 60px; border: 1px solid #999; font-size: 24px; color: #666; border-radius: 5px; padding: 0 20px;}
+.form>.inp>input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #666; font-size: 24px;
+} 
+.form>.inp>input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #666; font-size: 24px;
+} 
+.form>.inp>input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #666; font-size: 24px;
+} 
+.form>.inp>input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #666; font-size: 24px;
+} 
+
+.forget{font-size: 18px;}
+.forget a{float: right; margin-right: 18px; font-size: 18px; color: #333;}
+.form .tijiao{margin: 0 auto;width: 350px;}
+.submit{width: 350px; height: 60px; color: #fff; background-color: #4fc3f7; border: 0; margin: 40px auto 50px; border-radius: 8px; font-size: 20px; cursor: pointer;}
+.form .other{text-align: center; font-size: 18px;}
+.form .other img{display: block; width: 23px; margin: 0 auto; cursor: pointer;}
+
+/*=================================++移动端++==============================*/
+@media only screen and (min-width: 300px) and (max-width: 768px){
+	html,body{height: 100%;background: url(../img/login_bg.jpg) center center no-repeat; background-size: cover;}
+.mainLogin{padding-top: 110px; background: url(../img/login_bg.jpg) 0 0 no-repeat; background-size: cover;}
+
+.form{padding: 27px 10px 44px; background-color: #fff;width: 85%; margin-top: 0px; border-radius: 5px;}
+.form>h2{text-align: center; padding-bottom: 12px; border-bottom: 1px solid #666; margin-bottom: 35px; font-size: 22px;}
+.form>.inp{margin-bottom: 20px;}
+.form>.inp>input{width: 85%; height: 50px; border: 1px solid #999; font-size: 20px; color: #666; border-radius: 5px; padding: 0 20px;}
+.form>.inp>input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #666; font-size: 20px;
+} 
+.form>.inp>input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #666; font-size: 2.0px;
+} 
+.form>.inp>input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #666; font-size: 20px;
+} 
+.form>.inp>input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #666; font-size: 20px;
+} 
+
+.forget{font-size: 18px;}
+.forget a{float: right; margin-right: 18px; font-size: 18px; color: #333;}
+.form .tijiao{margin: 0 auto;width: 80%;}
+.submit{width: 100%; height: 60px; color: #fff; background-color: #4fc3f7; border: 0; margin: 20px auto 30px; border-radius: 8px; font-size: 20px; cursor: pointer;}
+.form .other{text-align: center; font-size: 18px;}
+.form .other img{display: block; width: 23px; margin: 0 auto; cursor: pointer;}
+
+}
+
+
+
+
+
+
+
+

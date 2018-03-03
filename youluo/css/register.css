@@ -1,0 +1,55 @@
+html,body{height: 100%;background: url(../img/login_bg.jpg) center center no-repeat; background-size: cover;}
+.mainRegister{padding-top: 120px; }
+
+.mainRegister .register{padding: 27px 80px 72px; width: 402px; background-color: #fff; border-radius: 5px; margin-top: 120px;} 
+.mainRegister .register h2{text-align: center; padding-bottom: 25px; border-bottom: 1px solid #999; margin-bottom: 48px;}
+.mainRegister .register .inp input{width: 360px; padding: 0 20px; border: 1px solid #999; font-size: 20px; height: 60px; margin-bottom: 20px; border-radius: 5px;}
+
+.mainRegister .register .inp>input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #666; font-size: 20px;
+} 
+.mainRegister .register .inp>input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #666; font-size: 20px;
+} 
+.mainRegister .register .inp>input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #666; font-size: 20px;
+} 
+.mainRegister .register .inp>input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #666; font-size: 20px;
+} 
+
+.mainRegister .register .check>div{width: 186px; height: 58px; border: 1px solid #999; border-radius: 5px; line-height: 58px; text-align: center; color: #999; font-size: 18px; }
+.mainRegister .register .check>span{display: inline-block; width: 188px; height: 60px; background-color: #bcbcbc; color: #fff; line-height: 60px; text-align: center; font-size: 18px; border-radius: 5px;}  
+.mainRegister .agree{font-size: 20px; margin-top: 20px;}
+.mainRegister .agree input{margin-right: 5px;}
+.mainRegister .zhuce input{width: 400px; height: 60px; line-height: 60px; color: #fff; font-size: 18px; background-color: #4fc3f7; border: 0; border-radius: 5px; font-size: 18px; margin-top: 40px; cursor: pointer;}
+
+/*移动端*/
+@media only screen and (min-width: 300px) and (max-width: 768px){
+html,body{height: auto;background: url(../img/login_bg.jpg) center center no-repeat; background-size: cover;}
+.mainRegister{padding-top: 35px; }
+
+.mainRegister .register{padding: 27px 10px 50px; width: 85%; background-color: #fff; border-radius: 5px; margin-top: 90px;} 
+.mainRegister .register h2{text-align: center; padding-bottom: 10px; border-bottom: 1px solid #999; margin-bottom: 35px;}
+.mainRegister .register .inp input{width: 85%; padding: 0 20px; border: 1px solid #999; font-size: 20px; height: 52px; margin-bottom: 20px; border-radius: 5px;}
+
+.mainRegister .register .inp>input::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #666; font-size: 18px;
+} 
+.mainRegister .register .inp>input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #666; font-size: 18px;
+} 
+.mainRegister .register .inp>input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #666; font-size: 18px;
+} 
+.mainRegister .register .inp>input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #666; font-size: 18px;
+} 
+
+.mainRegister .register .check>div{width: 40%; height: 58px; border: 1px solid #999; border-radius: 5px; line-height: 58px; text-align: center; color: #999; font-size: 18px; }
+.mainRegister .register .check>span{display: inline-block; width: 50%; height: 60px; background-color: #bcbcbc; color: #fff; line-height: 60px; text-align: center; font-size: 18px; border-radius: 5px;}  
+.mainRegister .agree{font-size: 20px; margin-top: 20px;}
+.mainRegister .agree input{margin-right: 5px;}
+.mainRegister .zhuce input{width: 80%; margin-left: 10%; height: 60px; line-height: 60px; color: #fff; font-size: 18px; background-color: #4fc3f7; border: 0; border-radius: 5px; font-size: 18px; margin-top: 20px; cursor: pointer;}
+
+}
